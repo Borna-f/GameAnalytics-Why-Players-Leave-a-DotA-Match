@@ -3,7 +3,7 @@
 
 The purpose of this study is to find a model that explains why players leave a match and predict the likelihood of leaving a match.
 The data of DotA (An multiplayer battle arena game) has been analyzed.
-For conducting the analyses feature selection (Multiple Regression Forward Selection) and feature extraction methods (PCA, Kmeans) have been utilized.
+For conducting the analyses feature selection (Multiple Regression Forward Selection) and feature extraction methods (PCA, Kmeans) have been utilized. The full report of the study is brought in the Paper.PDF file.
 
 ### Run
 
