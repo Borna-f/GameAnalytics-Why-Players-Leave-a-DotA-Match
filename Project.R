@@ -1,15 +1,7 @@
 
 rm(list=ls())
-setwd("D:\\Masters Courses\\Game Analytics\\Assignments\\Project\\DotAlicious")
-DotaData = read.csv("removedcolumns.csv")
-DotaData = na.omit(DotaData)
-DotaData[which(DotaData$GamesPlayed == 0),3] = NA
-DotaData = na.omit(DotaData)
-write.table(Temp, file = "RemovedZeros.csv", sep=",", row.names = F)
 
-detach(Data)
-
-Data = read.csv("Dota-FinalData.csv")
+Data = read.csv(file.choose(), header = TRUE)
 attach(Data)
 
 Data.frame = data.frame(Data[,names(Data) %in% c(
